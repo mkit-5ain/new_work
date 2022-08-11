@@ -1,0 +1,54 @@
+// @font-face {
+// 	font-family: 'font';
+// 	font-weight: 500;
+// 	src: url('../font/StudioFeixenSans-Regular.woff') format('woff'),
+// 		 url('../font/StudioFeixenSans-Regular.woff2') format('woff2');	 
+// }
+// @font-face {
+// 	font-family: 'font';
+// 	font-weight: 600;
+// 	src: url('../font/StudioFeixenSans-Medium.woff') format('woff'),
+// 		 url('../font/StudioFeixenSans-Medium.woff2') format('woff2');
+// }
+// @font-face {
+// 	font-family: 'font';
+// 	font-weight: 700;
+// 	src: url('../font/StudioFeixenSans-Bold.woff') format('woff'),
+// 		 url('../font/StudioFeixenSans-Bold.woff2') format('woff2');
+// }
+
+
+@font-face {
+    font-family: studiofeixen-variable;
+    src: url(../font/studio-feixen-sans-variable.woff2) format("woff2");
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: studiofeixen;
+    src: url(../font/StudioFeixenSans-Bold.woff2) format("woff2"),url(../font/StudioFeixenSans-Bold.woff) format("woff");
+    font-weight: 700;
+    font-style: normal
+}
+
+@font-face {
+    font-family: studiofeixen;
+    src: url(../font/StudioFeixenSans-Book.woff2) format("woff2"),url(../font/StudioFeixenSans-Book.woff) format("woff");
+    font-weight: 350;
+    font-style: normal
+}
+
+@font-face {
+    font-family: studiofeixen;
+    src: url(../font/StudioFeixenSans-Medium.woff2) format("woff2"),url(../font/StudioFeixenSans-Medium.woff) format("woff");
+    font-weight: 500;
+    font-style: normal
+}
+
+@font-face {
+    font-family: studiofeixen;
+    src: url(../font/StudioFeixenSans-Regular.woff2) format("woff2"),url(../font/StudioFeixenSans-Regular.woff) format("woff");
+    font-weight: 400;
+    font-style: normal
+}

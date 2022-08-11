@@ -1,0 +1,57 @@
+// 박스사이징
+@mixin box-sizing() {
+    box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -ms-box-sizing:border-box;
+    -o-box-sizing:border-box;
+}
+// 이미지 스프라이트
+@mixin spritebox($width, $height, $left, $top, $size) {
+    width: $width;
+    height: $height;
+    background-repeat: no-repeat;
+    background-position: $left $top;
+    background-size: $size;
+}
+// 컨텐츠 너비, 좌우 여백
+@mixin width-margin ($marginlr, $top, $right, $bottom, $left) {
+    width: calc(100% - #{$marginlr * 2});
+    margin: $top $right $bottom $left;
+}
+// 1차원 레이아웃 모델
+@mixin flex ($derection) {
+    display: flex;
+    justify-content: $derection;
+}
+// 타이틀
+@mixin h1 {
+    font: {
+        font-size: 24px;
+        weight: bold;
+    }
+    color: #000;
+}
+
+$flex-map: (
+    start: flex-start,
+    end: flex-end,
+    between: space-between,
+    around: space-around,
+    stretch: stretch,
+    center: center,
+);
+
+@function _get-flex-value($key) {
+    @return map-get($flex-map, $key);
+}
+
+@mixin flexbox($jc: center, $ai: center) {
+    display: flex;
+    align-items: _get-flex-value($ai);
+    justify-content: _get-flex-value($jc);
+}
+
+div {
+    @include flexbox(start, end )
+}
