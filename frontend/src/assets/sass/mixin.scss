@@ -1,0 +1,53 @@
+
+@mixin box-sizing() {
+    box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -ms-box-sizing:border-box;
+    -o-box-sizing:border-box;
+}
+
+@mixin spritebox($width, $height, $left, $top, $size) {
+    width: $width;
+    height: $height;
+    background-repeat: no-repeat;
+    background-position: $left $top;
+    background-size: $size;
+}
+
+@mixin width-margin ($marginlr, $top, $right, $bottom, $left) {
+    width: calc(100% - #{$marginlr * 2});
+    margin: $top $right $bottom $left;
+}
+
+@mixin flex ($derection) {
+    display: flex;
+    justify-content: $derection;
+}
+
+@mixin h1 {
+    font: {
+        font-size: 24px;
+        weight: bold;
+    }
+    color: #000;
+}
+
+$flex-map: (
+    start: flex-start,
+    end: flex-end,
+    between: space-between,
+    around: space-around,
+    stretch: stretch,
+    center: center,
+);
+
+@function _get-flex-value($key) {
+    @return map-get($flex-map, $key);
+}
+
+@mixin flexbox($jc: center, $ai: center) {
+    display: flex;
+    align-items: _get-flex-value($ai);
+    justify-content: _get-flex-value($jc);
+}

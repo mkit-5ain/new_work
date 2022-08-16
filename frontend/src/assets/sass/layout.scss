@@ -1,0 +1,23 @@
+.header-action { position: relative;
+    .header-dummy-text {     
+        font-size: 110px;
+        font-weight: bold;
+        font-variation-settings: "wght" 800, "wdth" 125;
+        text-align: center;
+        transition: .5s ease;
+        cursor: pointer;
+        &:hover {
+            font-variation-settings: "wght" 800, "wdth" 100;
+        }
+    }
+    .header-action-image { position: sticky; }
+}
+.clip {
+    path { transform: scale(4); }
+    .clip-image { 
+        width: 698px;
+        height: 832px;
+        background: url('@/assets/image/common/header.jpg') 0 0 no-repeat;
+        clip-path: url(#hart); 
+    }    
+}
