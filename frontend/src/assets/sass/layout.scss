@@ -1,3 +1,49 @@
+header { 
+    display: flex;
+    position: fixed;
+    z-index: 1;
+    width: calc(100% - 200px);
+    margin: 50px 100px 0px;
+    justify-content: space-between;
+    nav { position: relative;
+        a { padding-right: 30px; 
+            &:nth-child(2) {
+                &.router-link-active {
+                    & ~ i { left: 69px; }
+                }
+            }
+            &:nth-child(3) {
+                &.router-link-active {
+                    & ~ i { left: 144px; }
+                }
+            }
+            &.router-link-active { color: #f00; transition: .5s ease; }
+            &.outside { position: relative; color: #0067a3;
+                &:after {
+                    content: '';
+                    position: absolute;
+                    top: 0px;
+                    right: 0px;
+                    width: 19px;
+                    height: 18px;
+                    background: url('@/assets/image/icon/i_github.png') 0 0 no-repeat; 
+                    background-size: 19px;
+                }
+            }
+        }
+        i {
+            position: absolute;
+            top: -5px;
+            left: -5px;
+            width: 3px;
+            height: 3px;
+            border-radius: 100%;
+            background: #f00;
+            transition: .5s ease;
+        }
+    }
+}
+.container { padding: 150px 100px 100px; }
 .header-action { position: relative;
     .header-dummy-text {     
         font-size: 110px;
@@ -12,12 +58,12 @@
     }
     .header-action-image { position: sticky; }
 }
-.clip {
-    path { transform: scale(4); }
-    .clip-image { 
-        width: 698px;
-        height: 832px;
-        background: url('@/assets/image/common/header.jpg') 0 0 no-repeat;
-        clip-path: url(#hart); 
-    }    
-}
+// .clip {
+//     path { transform: scale(4); }
+//     .clip-image { 
+//         width: 698px;
+//         height: 832px;
+//         background: url('@/assets/image/common/header.jpg') 0 0 no-repeat;
+//         clip-path: url(#hart); 
+//     }    
+// }

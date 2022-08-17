@@ -1,15 +1,12 @@
 <template>
-    <nav>
-        <router-link to="/">Home</router-link> |
-        <router-link to="/about">About</router-link>
-    </nav>
     <ui-header/>
-    <article id="container" class="container">
+    <article class="container">
         <router-view/>
     </article>
     <ui-footer/>
 </template>
 <script>
+    import LocomotiveScroll from 'locomotive-scroll';
     import Header from '@/components/Header.vue';
     import Footer from '@/components/Footer.vue';
     export default {
@@ -17,7 +14,13 @@
         components: {
             'ui-header': Header,
             'ui-footer': Footer
-        }
+        },
+        mounted() {
+            // const scroll = new LocomotiveScroll({
+            //     el: document.querySelector('.container'),
+            //     smooth: true
+            // });
+        },
     }
 </script>
 <style lang="scss">
