@@ -86,3 +86,27 @@
 //         clip-path: url(#hart); 
 //     }    
 // }
+
+/* 레이아웃 스타일 */
+.bullet { position: relative;
+    &:before {
+        content: '';
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        z-index: 10;
+        width: 10px;
+        height: 10px;
+        background: #f00;
+    }
+    &:after {
+        content: '';
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+        z-index: 10;
+        width: 10px;
+        height: 10px;
+        background: #f00;
+    }
+}
