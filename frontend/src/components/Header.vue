@@ -1,25 +1,40 @@
 <template>
     <header>
         <div>© Code By LIM</div>
-        <nav>
+        <button class="menu" @click="menuToggle()"></button>
+        <!-- <nav>
             <router-link to="/">Home</router-link>
             <router-link to="/work">Work</router-link>
             <router-link to="/about">About</router-link>
             <a class="outside" href="https://github.com/mkit-5ain" target="blank">Github</a>
             <i></i>
-        </nav>
+        </nav> -->
     </header>
+    <Menu/>
 </template>
 <script>
+    import HeaderMenu from '@/components/HeaderMenu.vue';
     export default {
-        name: 'Header'
+        name: 'Header',
+        components: {
+            'Menu': HeaderMenu
+        },
+        methods: {
+            menuToggle: function () {
+                let element = document.querySelectorAll('.menu, .menu-view');
+                element.forEach(element => {
+                    element.classList.toggle('active');
+                });
+                
+            }
+        }
     }
 </script>
 <style lang="scss" scoped>
     header { 
         display: flex;
         position: fixed;
-        z-index: 1;
+        z-index: 2;
         width: calc(100% - 10.41667vw);
         margin: 2.60417vw 5.20833vw 0px;
         justify-content: space-between;

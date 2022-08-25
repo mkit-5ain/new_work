@@ -1,11 +1,12 @@
 <template>
     <ui-header/>
-        <router-view class="container"/>
+    <router-view class="container"/>
     <ui-footer/>
     <curosr/>
 </template>
 <script>
-    import LocomotiveScroll from 'locomotive-scroll';
+    import gsap from 'gsap';
+    import ScrollTrigger from "gsap/ScrollTrigger";
     import Header from '@/components/Header.vue';
     import Footer from '@/components/Footer.vue';
     import Cursor from '@/components/Cursor.vue';
@@ -15,13 +16,7 @@
             'ui-header': Header,
             'ui-footer': Footer,
             'curosr': Cursor
-        },
-        mounted() {
-            // const scroll = new LocomotiveScroll({
-            //     el: document.querySelector('.container'),
-            //     smooth: true
-            // });
-        },
+        }
     }
 </script>
 <style lang="scss">
