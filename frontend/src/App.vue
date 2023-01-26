@@ -5,8 +5,6 @@
     <curosr/>
 </template>
 <script>
-    import gsap from 'gsap';
-    import ScrollTrigger from "gsap/ScrollTrigger";
     import Header from '@/components/Header.vue';
     import Footer from '@/components/Footer.vue';
     import Cursor from '@/components/Cursor.vue';
