@@ -1,19 +1,19 @@
 /* 노이즈 */
 #app {
-    &:after {
-        content: "";
-        position: fixed;
-        top: -10vw;
-        left: -10vw;
-        z-index: -1;
-        width: calc(100% + 100vw);
-        height: calc(100% + 100vw);
-        background-image: url('@/assets/image/common/noise.png');
-        background-position: 50%;
-        pointer-events: none;
-        animation: noise 1s steps(5) infinite;
-        opacity: .5;
-    }
+    // &:after {
+    //     content: "";
+    //     position: fixed;
+    //     top: -10vw;
+    //     left: -10vw;
+    //     z-index: -1;
+    //     width: calc(100% + 100vw);
+    //     height: calc(100% + 100vw);
+    //     background-image: url('@/assets/image/common/noise.png');
+    //     background-position: 50%;
+    //     pointer-events: none;
+    //     animation: noise 1s steps(5) infinite;
+    //     opacity: .5;
+    // }
 }
 
 /* 페이지 전환 */

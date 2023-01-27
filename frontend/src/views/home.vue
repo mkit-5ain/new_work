@@ -1,53 +1,28 @@
 <template>
-    <section class="home is-active smooth-scroll">
-        <div class=""></div>
+    <section class="home is-active">
+        <div class="intro-wrap">
+            <div class="name-wrap">
+                <ul class="name-list">
+                    <li class="list-item"><span>M</span></li>
+                    <li class="list-item"><span>x</span></li>
+                    <li class="list-item"><span>x</span></li>
+                    <li class="list-item"><span>e</span></li>
+                    <li class="list-item"><span>m</span></li>
+                    <li class="list-item"><span>e</span></li>
+                    <li class="list-item"><span>n</span></li>
+                    <li class="list-item"><span>t</span></li>
+                </ul>
+            </div>
+        </div>
         <div class="transition-wrap">
-            <ul class="name-list">
-                <li class="list-item"><span>M</span></li>
-                <li class="list-item"><span>x</span></li>
-                <li class="list-item"><span>x</span></li>
-                <li class="list-item"><span>e</span></li>
-                <li class="list-item"><span>m</span></li>
-                <li class="list-item"><span>e</span></li>
-                <li class="list-item"><span>n</span></li>
-                <li class="list-item"><span>t</span></li>
-            </ul>
             <div class="transition-image">
-                <!-- <img src="../assets/image/common/astro.webp" alt=""> -->
+                <img src="../assets/image/common/astro.webp" alt="">
             </div>
             <div class="circle">
                 <img src="../assets/image/common/circle.svg" alt="">
             </div>
         </div>
         <!-- <div class="space"></div> -->
-        <div class="work">
-            <ul class="work-list">
-                <li class="list-item action">
-                    <div class="image"><img src="../assets/image/common/banner/sample.jpg" alt=""></div>
-                    <div class="description">1</div>
-                </li>
-                 <li class="list-item action">
-                    <div class="image"><img src="../assets/image/common/banner/sample.jpg" alt=""></div>
-                    <div class="description">1</div>
-                </li>
-                 <li class="list-item action">
-                    <div class="image"><img src="../assets/image/common/banner/sample.jpg" alt=""></div>
-                    <div class="description">1</div>
-                </li>
-                 <li class="list-item action">
-                    <div class="image"><img src="../assets/image/common/banner/sample.jpg" alt=""></div>
-                    <div class="description">1</div>
-                </li>
-                 <li class="list-item action">
-                    <div class="image"><img src="../assets/image/common/banner/sample.jpg" alt=""></div>
-                    <div class="description">1</div>
-                </li>
-                 <li class="list-item action">
-                    <div class="image"><img src="../assets/image/common/banner/sample.jpg" alt=""></div>
-                    <div class="description">1</div>
-                </li>
-            </ul>
-        </div>
         <div class="age">
             <div class="front">
                 <span>0</span>
@@ -63,12 +38,11 @@
             </div>
             <div class="text">AGE</div>
         </div>
-        <!-- 
-       
+        
         <router-link class="contact bullet" to="/work">
             <p>+</p>
             <p>View My Work</p>
-        </router-link> -->
+        </router-link>
     </section>
 </template>
 <script>
@@ -96,10 +70,10 @@
                 section.forEach(sections => observer.observe(sections));
             },
             scrollTrigger () {
-                smoothScroll('.smooth-scroll');
+                smoothScroll('.container');
                 function smoothScroll(content, viewport, smoothness) {
                     content = gsap.utils.toArray(content)[0];
-                    smoothness = smoothness || 1;
+                    smoothness = smoothness || 2.2;
 
                     gsap.set(viewport || content.parentNode, {overflow: "hidden", position: "fixed", height: "100%", width: "100%", top: 0, left: 0, right: 0, bottom: 0});
                     gsap.set(content, {overflow: "visible", width: "100%"});
@@ -169,7 +143,7 @@
                 }
                 gsap.fromTo('.transition-image', {
                     xPercent: 30,
-                    yPercent: 50,
+                    yPercent: 70,
                     scale: 2,
                     ease: "true",
                     scrollTrigger: {
@@ -177,13 +151,12 @@
                         start: "top 50%",
                         end: "bottom 50%",
                         scrub: true,
-                        markers:true
+                        // markers:true
                     }, 
-                },
-                {
+                },{
                     xPercent: -20,
-                    yPercent: 0.1,
-                    scale: .1,
+                    yPercent: 50,
+                    scale: .3,
                     ease: "true",
                     scrollTrigger: {
                         trigger: ".transition-image",
@@ -191,15 +164,14 @@
                         end: "bottom 50%",
                         scrub: true
                     }, 
-                }
-                
-                );
+                });
 
                 gsap.to('.circle', {
                     rotation: 50,
+                    scale: 2,
                     scrollTrigger: {
                         trigger: ".circle",
-                        start: "top 50%", // the default values
+                        start: "top 50%",
                         end: "bottom 50%",
                         scrub: true
                     }
@@ -219,20 +191,29 @@
             background: #f00;
             z-index: 1;
         }
-        .transition-wrap {
-            position: relative;
-            width: 100%;
-            height: calc(100vh * 2);
-            overflow: hidden;
+        .transition-wrap { position: relative; width: 100%;
             .transition-image { position: absolute; top: 0%; left: 27%; }
         }
-        .name-list {
-            display: flex;
-            padding: 200px 100px;
-            font-size: 300px;
-            font-variation-settings: "wght" 800, "wdth" 125;
-            justify-content: center;
-            transition: 1s ease;
+        .name-wrap {  display: flex; height: 100vh; align-items: center; justify-content: center;
+            .name-list {
+                display: flex;
+                position: relative;
+                font-size: 300px;
+                font-variation-settings: "wght" 800, "wdth" 125;
+                justify-content: center;
+                transition: 1s ease;
+                &:after {
+                    content: "";
+                    position: absolute;
+                    bottom: 70px;
+                    right: -85px;
+                    width: 59px;
+                    height: 59px;
+                    background: #f00;
+                    border-radius: 100%;
+                    box-shadow: 1px 1px 5px 2px #b35656;
+                }
+            }
         }
         .age { display: flex; height: 12.5vw; justify-content: center; align-items: flex-end; overflow: hidden; 
             .front,.back,.text { font-size: 10.41667vw; }
@@ -273,8 +254,8 @@
                 left: 0px;
                 width: 50vw;
                 height: 50vw;
-                background: url(http://192.168.1.42:8080/img/space-bg.9c5d07d6.svg) 0 0 repeat;
-                background-size: 200px;
+                background: url('../assets/image/common/space-bg.svg') 0 0 repeat;
+                background-size: 400px;
                 animation: 295s spaceAnimate infinite alternate;
             }
         }
