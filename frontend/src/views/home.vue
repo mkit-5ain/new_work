@@ -15,15 +15,166 @@
             </div>
         </div>
         <div class="transition-wrap">
-            <div class="transition-image">
+            <div class="transition-image image-scale-first">
                 <img src="../assets/image/common/astro.webp" alt="">
             </div>
             <div class="circle">
                 <img src="../assets/image/common/circle.svg" alt="">
             </div>
         </div>
+         <div class="transition-wrap">
+            <div class="transition-image image-scale-second">
+                <img src="../assets/image/common/astro.webp" alt="">
+            </div>
+            <div class="reverse-circle">
+                <img src="../assets/image/common/circle.svg" alt="">
+            </div>
+        </div>
+        <div class="project">
+            <div class="action">
+                <div class="title"><span>GOSPHERES</span></div>
+                <div class="text-marquee">
+                    <p class="text">
+                        <span>CREATIVE</span> 
+                        <span>TRANSITION</span>
+                        <span>JAVASCRIPT</span>
+                        <span>EFFECTS</span>
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JQUERY</span>
+                        <span>ANIMATION</span>
+                        <span>GOLF-WEAR</span>
+                    </p>
+                    <p class="text">
+                        <span>CREATIVE</span> 
+                        <span>TRANSITION</span>
+                        <span>JAVASCRIPT</span>
+                        <span>EFFECTS</span>
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JQUERY</span>
+                        <span>ANIMATION</span>
+                        <span>GOLF-WEAR</span>
+                    </p>
+                </div>
+                <div class="hover-image"></div>
+            </div>
+            <div class="action">
+                <div class="title"><span>BIGCIAL</span></div>
+                <div class="text-marquee">
+                    <p class="text">
+                        <span>CREATIVE</span> 
+                        <span>TRANSITION</span>
+                        <span>JAVASCRIPT</span>
+                        <span>EFFECTS</span>
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JQUERY</span>
+                        <span>ANIMATION</span>
+                        <span>GOLF-WEAR</span>
+                    </p>
+                    <p class="text">
+                        <span>CREATIVE</span> 
+                        <span>TRANSITION</span>
+                        <span>JAVASCRIPT</span>
+                        <span>EFFECTS</span>
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JQUERY</span>
+                        <span>ANIMATION</span>
+                        <span>GOLF-WEAR</span>
+                    </p>
+                </div>
+                <div class="hover-image"></div>
+            </div>
+            <div class="action">
+                <div class="title"><span>NOICE</span></div>
+                <div class="text-marquee">
+                    <p class="text">
+                        <span>CREATIVE</span> 
+                        <span>TRANSITION</span>
+                        <span>JAVASCRIPT</span>
+                        <span>EFFECTS</span>
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JQUERY</span>
+                        <span>ANIMATION</span>
+                        <span>GOLF-WEAR</span>
+                    </p>
+                    <p class="text">
+                        <span>CREATIVE</span> 
+                        <span>TRANSITION</span>
+                        <span>JAVASCRIPT</span>
+                        <span>EFFECTS</span>
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JQUERY</span>
+                        <span>ANIMATION</span>
+                        <span>GOLF-WEAR</span>
+                    </p>
+                </div>
+                <div class="hover-image"></div>
+            </div>
+            <div class="action">
+                <div class="title"><span>SLOWGLOW</span></div>
+                <div class="text-marquee">
+                    <p class="text">
+                        <span>CREATIVE</span> 
+                        <span>TRANSITION</span>
+                        <span>JAVASCRIPT</span>
+                        <span>EFFECTS</span>
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JQUERY</span>
+                        <span>ANIMATION</span>
+                        <span>GOLF-WEAR</span>
+                    </p>
+                    <p class="text">
+                        <span>CREATIVE</span> 
+                        <span>TRANSITION</span>
+                        <span>JAVASCRIPT</span>
+                        <span>EFFECTS</span>
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JQUERY</span>
+                        <span>ANIMATION</span>
+                        <span>GOLF-WEAR</span>
+                    </p>
+                </div>
+                <div class="hover-image"></div>
+            </div>
+            <div class="action">
+                <div class="title"><span>PICKDATA</span></div>
+                <div class="text-marquee">
+                    <p class="text">
+                        <span>CREATIVE</span> 
+                        <span>TRANSITION</span>
+                        <span>JAVASCRIPT</span>
+                        <span>EFFECTS</span>
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JQUERY</span>
+                        <span>ANIMATION</span>
+                        <span>GOLF-WEAR</span>
+                    </p>
+                    <p class="text">
+                        <span>CREATIVE</span> 
+                        <span>TRANSITION</span>
+                        <span>JAVASCRIPT</span>
+                        <span>EFFECTS</span>
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JQUERY</span>
+                        <span>ANIMATION</span>
+                        <span>GOLF-WEAR</span>
+                    </p>
+                </div>
+                <div class="hover-image"></div>
+            </div>
+        </div>
+        <div>1</div>
         <!-- <div class="space"></div> -->
-        <div class="age">
+        <!-- <div class="age">
             <div class="front">
                 <span>0</span>
                 <span>1</span>
@@ -42,7 +193,7 @@
         <router-link class="contact bullet" to="/work">
             <p>+</p>
             <p>View My Work</p>
-        </router-link>
+        </router-link> -->
     </section>
 </template>
 <script>
@@ -62,6 +213,8 @@
                     e.forEach( (section) => {
                         if (section.isIntersecting) {
                             section.target.classList.add('active');
+                        } else {
+                            section.target.classList.remove('active');
                         }
                     }); 
                 })
@@ -73,7 +226,7 @@
                 smoothScroll('.container');
                 function smoothScroll(content, viewport, smoothness) {
                     content = gsap.utils.toArray(content)[0];
-                    smoothness = smoothness || 2.2;
+                    smoothness = smoothness || 2.5;
 
                     gsap.set(viewport || content.parentNode, {overflow: "hidden", position: "fixed", height: "100%", width: "100%", top: 0, left: 0, right: 0, bottom: 0});
                     gsap.set(content, {overflow: "visible", width: "100%"});
@@ -138,16 +291,17 @@
                                 isProxyScrolling = false;
                             }
                         },
-                        onRefresh: killScrub // when the screen resizes, we just want the animation to immediately go to the appropriate spot rather than animating there, so basically kill the scrub.
+                        onRefresh: killScrub
                     });
                 }
-                gsap.fromTo('.transition-image', {
+
+                gsap.fromTo('.image-scale-first', {
                     xPercent: 30,
                     yPercent: 70,
                     scale: 2,
                     ease: "true",
                     scrollTrigger: {
-                        trigger: ".transition-image",
+                        trigger: ".image-scale-first",
                         start: "top 50%",
                         end: "bottom 50%",
                         scrub: true,
@@ -159,7 +313,32 @@
                     scale: .3,
                     ease: "true",
                     scrollTrigger: {
-                        trigger: ".transition-image",
+                        trigger: ".image-scale-first",
+                        start: "top 50%",
+                        end: "bottom 50%",
+                        scrub: true
+                    }, 
+                });
+
+                gsap.fromTo('.image-scale-second', {
+                    xPercent: 30,
+                    yPercent: 70,
+                    scale: 2,
+                    ease: "true",
+                    scrollTrigger: {
+                        trigger: ".image-scale-second",
+                        start: "top 50%",
+                        end: "bottom 50%",
+                        scrub: true,
+                        // markers:true
+                    }, 
+                },{
+                    xPercent: -20,
+                    yPercent: 50,
+                    scale: .3,
+                    ease: "true",
+                    scrollTrigger: {
+                        trigger: ".image-scale-second",
                         start: "top 50%",
                         end: "bottom 50%",
                         scrub: true
@@ -169,10 +348,71 @@
                 gsap.to('.circle', {
                     rotation: 50,
                     scale: 2,
+                    opacity: 0,
                     scrollTrigger: {
                         trigger: ".circle",
                         start: "top 50%",
                         end: "bottom 50%",
+                        scrub: true,
+                    }
+                });
+
+                gsap.to('.reverse-circle', {
+                    rotation: -50,
+                    scale: 2,
+                    opacity: 0,
+                    scrollTrigger: {
+                        trigger: ".reverse-circle",
+                        start: "top 50%",
+                        end: "bottom 50%",
+                        scrub: true
+                    }
+                });
+
+                gsap.to('.project .action:nth-child(1)', {
+                    xPercent: -50,
+                    scrollTrigger: {
+                        trigger: ".project .action:nth-child(1)",
+                        scrub: true
+                    }
+                });
+
+                gsap.to('.project .action:nth-child(2)', {
+                    xPercent: 50,
+                    scrollTrigger: {
+                        trigger: ".project .action:nth-child(2)",
+                        scrub: true
+                    }
+                });
+
+                gsap.to('.project .action:nth-child(3)', {
+                    xPercent: -50,
+                    scrollTrigger: {
+                        trigger: ".project .action:nth-child(3)",
+                        scrub: true
+                    }
+                });
+
+                gsap.to('.project .action:nth-child(4)', {
+                    xPercent: 50,
+                    scrollTrigger: {
+                        trigger: ".project .action:nth-child(4)",
+                        scrub: true
+                    }
+                });
+
+                gsap.to('.project .action:nth-child(5)', {
+                    xPercent: -50,
+                    scrollTrigger: {
+                        trigger: ".project .action:nth-child(5)",
+                        scrub: true
+                    }
+                });
+
+                gsap.to('.project .action:nth-child(6)', {
+                    xPercent: 50,
+                    scrollTrigger: {
+                        trigger: ".project .action:nth-child(6)",
                         scrub: true
                     }
                 });
@@ -192,6 +432,8 @@
             z-index: 1;
         }
         .transition-wrap { position: relative; width: 100%;
+            .circle { pointer-events: none; }
+            .reverse-circle { pointer-events: none; }
             .transition-image { position: absolute; top: 0%; left: 27%; }
         }
         .name-wrap {  display: flex; height: 100vh; align-items: center; justify-content: center;
@@ -285,5 +527,62 @@
                 }
             }
         } 
+        .project { 
+            display: flex;
+            max-width: 1920px; 
+            margin: 25vw 10vw; 
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 300px;
+            .action { position: relative; overflow: hidden; 
+                &:before {
+                    content: "";
+                    position: absolute;
+                    bottom: 0px;
+                    left: -5px;
+                    width: 10px;
+                    height: 19px;
+                    background: #fff;
+                    opacity: 1;
+                    z-index: 1;
+                    box-shadow: 0px 0px 30px 30px #fff;
+                }
+                &:after { 
+                    content: "";
+                    position: absolute;
+                    bottom: 0px;
+                    right: -5px;
+                    width: 10px;
+                    height: 19px;
+                    background: #fff;
+                    opacity: 1;
+                    z-index: 1;
+                    box-shadow: 0px 0px 30px 30px #fff;
+                }
+                &:nth-child(odd) { margin-left: auto; }
+                &:nth-child(even) { margin-right: auto; }
+            }
+            .title { padding-bottom: 30px; font-size: 100px; font-weight: bold; overflow: hidden; }
+            .text-marquee { 
+                display: flex; 
+                position: absolute;
+                bottom: 0px;
+                font-size: 16px;
+                gap: 5px;
+                .text { color: #f00; animation: 10s linear text-marquee infinite; white-space: nowrap; 
+                    span { padding: 0px 10px; }
+                }
+            };
+            @keyframes text-marquee {
+                to {
+                    transform: translateX(0%);
+                }
+
+                from {
+                    transform: translateX(calc(-100% - 5px));
+                }
+            }
+        }
     }
 </style>
