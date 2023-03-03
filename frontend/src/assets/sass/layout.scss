@@ -1,22 +1,21 @@
 /* 노이즈 */
-#app {
-    // &:after {
-    //     content: "";
-    //     position: fixed;
-    //     top: -10vw;
-    //     left: -10vw;
-    //     z-index: -1;
-    //     width: calc(100% + 100vw);
-    //     height: calc(100% + 100vw);
-    //     background-image: url('@/assets/image/common/noise.png');
-    //     background-position: 50%;
-    //     pointer-events: none;
-    //     animation: noise 1s steps(5) infinite;
-    //     opacity: .5;
-    // }
-}
+// #app {
+//     &:after {
+//         content: "";
+//         position: fixed;
+//         top: -10vw;
+//         left: -10vw;
+//         z-index: -1;
+//         width: calc(100% + 100vw);
+//         height: calc(100% + 100vw);
+//         background-image: url('@/assets/image/common/noise.png');
+//         background-position: 50%;
+//         pointer-events: none;
+//         animation: noise 1s steps(5) infinite;
+//         opacity: .5;
+//     }
+// }
 
-/* 페이지 전환 */
 // .is-active { position: relative;
 //     &:before {
 //         content: "";
@@ -36,7 +35,7 @@
     z-index: 10;
     width: 30px;
     height: 30px;
-    border: 1px solid #000;
+    border: 1px solid #efc449;
     border-radius: 50%;
     transform: translateX(-50%) translateY(-50%) scale(1) translateZ(0px);
     pointer-events: none;
@@ -49,7 +48,7 @@
         left: 13px;
         width: 3px;
         height: 3px;
-        background: #f00;
+        background: #df114f;
     }
     &:after {
         content: '';
@@ -59,7 +58,7 @@
         left: 30px;
         width: 3px;
         height: 3px;
-        background: #f00;
+        background: #df114f;
     }
 }
 .header-action { position: relative;
@@ -139,5 +138,24 @@
         &.left { animation: 30s marqueeLeft linear infinite; }
         &.right { animation: 5s marqueeRight linear infinite; }
         .list-item { font-size: 150px; }
+    }
+}
+
+.image-collection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2.60417vw;
+    .image-wrap { 
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;    
+        gap: 2.60417vw;
+        opacity: 0;
+        img { width: 15.625vw; filter: sepia(0.5); }
     }
 }

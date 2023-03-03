@@ -3,14 +3,14 @@
         <div class="intro-wrap">
             <div class="name-wrap">
                 <ul class="name-list">
-                    <li class="list-item"><span>M</span></li>
-                    <li class="list-item"><span>x</span></li>
-                    <li class="list-item"><span>x</span></li>
-                    <li class="list-item"><span>e</span></li>
-                    <li class="list-item"><span>m</span></li>
-                    <li class="list-item"><span>e</span></li>
-                    <li class="list-item"><span>n</span></li>
-                    <li class="list-item"><span>t</span></li>
+                    <li class="list-item"><span data-char="M">M</span></li>
+                    <li class="list-item"><span data-char="x">x</span></li>
+                    <li class="list-item"><span data-char="x">x</span></li>
+                    <li class="list-item"><span data-char="e">e</span></li>
+                    <li class="list-item"><span data-char="m">m</span></li>
+                    <li class="list-item"><span data-char="e">e</span></li>
+                    <li class="list-item"><span data-char="n">n</span></li>
+                    <li class="list-item"><span data-char="t">t</span></li>
                 </ul>
             </div>
         </div>
@@ -32,147 +32,214 @@
         </div>
         <div class="project">
             <div class="action">
-                <div class="title"><span>GOSPHERES</span></div>
-                <div class="text-marquee">
-                    <p class="text">
-                        <span>CREATIVE</span> 
-                        <span>TRANSITION</span>
-                        <span>JAVASCRIPT</span>
-                        <span>EFFECTS</span>
-                        <span>HTML5</span>
-                        <span>CSS3</span>
-                        <span>JQUERY</span>
-                        <span>ANIMATION</span>
-                        <span>GOLF-WEAR</span>
-                    </p>
-                    <p class="text">
-                        <span>CREATIVE</span> 
-                        <span>TRANSITION</span>
-                        <span>JAVASCRIPT</span>
-                        <span>EFFECTS</span>
-                        <span>HTML5</span>
-                        <span>CSS3</span>
-                        <span>JQUERY</span>
-                        <span>ANIMATION</span>
-                        <span>GOLF-WEAR</span>
-                    </p>
+                <div class="inner-wrap">
+                    <div class="title"><span>Lorem ipsum dolor</span></div>
+                    <div class="text-marquee">
+                        <p class="text">
+                            <span>CREATIVE</span> 
+                            <span>TRANSITION</span>
+                            <span>JAVASCRIPT</span>
+                            <span>EFFECTS</span>
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JQUERY</span>
+                            <span>ANIMATION</span>
+                            <span>GOLF-WEAR</span>
+                        </p>
+                        <p class="text">
+                            <span>CREATIVE</span> 
+                            <span>TRANSITION</span>
+                            <span>JAVASCRIPT</span>
+                            <span>EFFECTS</span>
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JQUERY</span>
+                            <span>ANIMATION</span>
+                            <span>GOLF-WEAR</span>
+                        </p>
+                    </div>
                 </div>
-                <div class="hover-image"></div>
+                <div class="hover-image"><img src="../assets/image/common/banner/sample.jpg" alt=""></div>
             </div>
             <div class="action">
-                <div class="title"><span>BIGCIAL</span></div>
-                <div class="text-marquee">
-                    <p class="text">
-                        <span>CREATIVE</span> 
-                        <span>TRANSITION</span>
-                        <span>JAVASCRIPT</span>
-                        <span>EFFECTS</span>
-                        <span>HTML5</span>
-                        <span>CSS3</span>
-                        <span>JQUERY</span>
-                        <span>ANIMATION</span>
-                        <span>GOLF-WEAR</span>
-                    </p>
-                    <p class="text">
-                        <span>CREATIVE</span> 
-                        <span>TRANSITION</span>
-                        <span>JAVASCRIPT</span>
-                        <span>EFFECTS</span>
-                        <span>HTML5</span>
-                        <span>CSS3</span>
-                        <span>JQUERY</span>
-                        <span>ANIMATION</span>
-                        <span>GOLF-WEAR</span>
-                    </p>
+                <div class="inner-wrap">
+                    <div class="title"><span>Lorem ipsum dolor</span></div>
+                    <div class="text-marquee">
+                        <p class="text">
+                            <span>CREATIVE</span> 
+                            <span>TRANSITION</span>
+                            <span>JAVASCRIPT</span>
+                            <span>EFFECTS</span>
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JQUERY</span>
+                            <span>ANIMATION</span>
+                            <span>GOLF-WEAR</span>
+                        </p>
+                        <p class="text">
+                            <span>CREATIVE</span> 
+                            <span>TRANSITION</span>
+                            <span>JAVASCRIPT</span>
+                            <span>EFFECTS</span>
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JQUERY</span>
+                            <span>ANIMATION</span>
+                            <span>GOLF-WEAR</span>
+                        </p>
+                    </div>
                 </div>
-                <div class="hover-image"></div>
+                <div class="hover-image"><img src="../assets/image/common/banner/sample.jpg" alt=""></div>
             </div>
             <div class="action">
-                <div class="title"><span>NOICE</span></div>
-                <div class="text-marquee">
-                    <p class="text">
-                        <span>CREATIVE</span> 
-                        <span>TRANSITION</span>
-                        <span>JAVASCRIPT</span>
-                        <span>EFFECTS</span>
-                        <span>HTML5</span>
-                        <span>CSS3</span>
-                        <span>JQUERY</span>
-                        <span>ANIMATION</span>
-                        <span>GOLF-WEAR</span>
-                    </p>
-                    <p class="text">
-                        <span>CREATIVE</span> 
-                        <span>TRANSITION</span>
-                        <span>JAVASCRIPT</span>
-                        <span>EFFECTS</span>
-                        <span>HTML5</span>
-                        <span>CSS3</span>
-                        <span>JQUERY</span>
-                        <span>ANIMATION</span>
-                        <span>GOLF-WEAR</span>
-                    </p>
+                <div class="inner-wrap">
+                    <div class="title"><span>Lorem ipsum dolor</span></div>
+                    <div class="text-marquee">
+                        <p class="text">
+                            <span>CREATIVE</span> 
+                            <span>TRANSITION</span>
+                            <span>JAVASCRIPT</span>
+                            <span>EFFECTS</span>
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JQUERY</span>
+                            <span>ANIMATION</span>
+                            <span>GOLF-WEAR</span>
+                        </p>
+                        <p class="text">
+                            <span>CREATIVE</span> 
+                            <span>TRANSITION</span>
+                            <span>JAVASCRIPT</span>
+                            <span>EFFECTS</span>
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JQUERY</span>
+                            <span>ANIMATION</span>
+                            <span>GOLF-WEAR</span>
+                        </p>
+                    </div>
                 </div>
-                <div class="hover-image"></div>
+                <div class="hover-image"><img src="../assets/image/common/banner/sample.jpg" alt=""></div>
             </div>
             <div class="action">
-                <div class="title"><span>SLOWGLOW</span></div>
-                <div class="text-marquee">
-                    <p class="text">
-                        <span>CREATIVE</span> 
-                        <span>TRANSITION</span>
-                        <span>JAVASCRIPT</span>
-                        <span>EFFECTS</span>
-                        <span>HTML5</span>
-                        <span>CSS3</span>
-                        <span>JQUERY</span>
-                        <span>ANIMATION</span>
-                        <span>GOLF-WEAR</span>
-                    </p>
-                    <p class="text">
-                        <span>CREATIVE</span> 
-                        <span>TRANSITION</span>
-                        <span>JAVASCRIPT</span>
-                        <span>EFFECTS</span>
-                        <span>HTML5</span>
-                        <span>CSS3</span>
-                        <span>JQUERY</span>
-                        <span>ANIMATION</span>
-                        <span>GOLF-WEAR</span>
-                    </p>
+                <div class="inner-wrap">
+                    <div class="title"><span>Lorem ipsum dolor</span></div>
+                    <div class="text-marquee">
+                        <p class="text">
+                            <span>CREATIVE</span> 
+                            <span>TRANSITION</span>
+                            <span>JAVASCRIPT</span>
+                            <span>EFFECTS</span>
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JQUERY</span>
+                            <span>ANIMATION</span>
+                            <span>GOLF-WEAR</span>
+                        </p>
+                        <p class="text">
+                            <span>CREATIVE</span> 
+                            <span>TRANSITION</span>
+                            <span>JAVASCRIPT</span>
+                            <span>EFFECTS</span>
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JQUERY</span>
+                            <span>ANIMATION</span>
+                            <span>GOLF-WEAR</span>
+                        </p>
+                    </div>
                 </div>
-                <div class="hover-image"></div>
+                <div class="hover-image"><img src="../assets/image/common/banner/sample.jpg" alt=""></div>
             </div>
             <div class="action">
-                <div class="title"><span>PICKDATA</span></div>
-                <div class="text-marquee">
-                    <p class="text">
-                        <span>CREATIVE</span> 
-                        <span>TRANSITION</span>
-                        <span>JAVASCRIPT</span>
-                        <span>EFFECTS</span>
-                        <span>HTML5</span>
-                        <span>CSS3</span>
-                        <span>JQUERY</span>
-                        <span>ANIMATION</span>
-                        <span>GOLF-WEAR</span>
-                    </p>
-                    <p class="text">
-                        <span>CREATIVE</span> 
-                        <span>TRANSITION</span>
-                        <span>JAVASCRIPT</span>
-                        <span>EFFECTS</span>
-                        <span>HTML5</span>
-                        <span>CSS3</span>
-                        <span>JQUERY</span>
-                        <span>ANIMATION</span>
-                        <span>GOLF-WEAR</span>
-                    </p>
+                <div class="inner-wrap">
+                    <div class="title"><span>Lorem ipsum dolor</span></div>
+                    <div class="text-marquee">
+                        <p class="text">
+                            <span>CREATIVE</span> 
+                            <span>TRANSITION</span>
+                            <span>JAVASCRIPT</span>
+                            <span>EFFECTS</span>
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JQUERY</span>
+                            <span>ANIMATION</span>
+                            <span>GOLF-WEAR</span>
+                        </p>
+                        <p class="text">
+                            <span>CREATIVE</span> 
+                            <span>TRANSITION</span>
+                            <span>JAVASCRIPT</span>
+                            <span>EFFECTS</span>
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JQUERY</span>
+                            <span>ANIMATION</span>
+                            <span>GOLF-WEAR</span>
+                        </p>
+                    </div>
                 </div>
-                <div class="hover-image"></div>
+                <div class="hover-image"><img src="../assets/image/common/banner/sample.jpg" alt=""></div>
+            </div>
+            <div class="action">
+                <div class="inner-wrap">
+                    <div class="title"><span>Lorem ipsum dolor</span></div>
+                    <div class="text-marquee">
+                        <p class="text">
+                            <span>CREATIVE</span> 
+                            <span>TRANSITION</span>
+                            <span>JAVASCRIPT</span>
+                            <span>EFFECTS</span>
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JQUERY</span>
+                            <span>ANIMATION</span>
+                            <span>GOLF-WEAR</span>
+                        </p>
+                        <p class="text">
+                            <span>CREATIVE</span> 
+                            <span>TRANSITION</span>
+                            <span>JAVASCRIPT</span>
+                            <span>EFFECTS</span>
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JQUERY</span>
+                            <span>ANIMATION</span>
+                            <span>GOLF-WEAR</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="hover-image"><img src="../assets/image/common/banner/sample.jpg" alt=""></div>
             </div>
         </div>
-        <div>1</div>
+        <div class="image-collection">
+            <div class="image-wrap">
+                <img src="../assets/image/common/banner/noice/noice-01.jpg" alt="">
+                <img src="../assets/image/common/banner/noice/noice-10.jpg" alt="">
+                
+                <img src="../assets/image/common/banner/noice/noice-03.jpg" alt="">
+            </div>
+            <div class="image-wrap">
+                <img src="../assets/image/common/banner/noice/noice-12.jpg" alt="">
+                <img src="../assets/image/common/banner/noice/noice-13.jpg" alt="">
+                <img src="../assets/image/common/banner/noice/noice-11.jpg" alt="">
+            </div>
+            <div class="image-wrap">
+                <img src="../assets/image/common/banner/noice/noice-06.jpg" alt="">
+                <img src="../assets/image/common/banner/noice/noice-07.jpg" alt="">
+                <img src="../assets/image/common/banner/noice/noice-08.jpg" alt="">
+            </div>
+            <div class="image-wrap">
+                <img src="../assets/image/common/banner/noice/noice-09.jpg" alt="">
+                <img src="../assets/image/common/banner/noice/noice-02.jpg" alt="">
+                <img src="../assets/image/common/banner/noice/noice-14.jpg" alt="">
+            </div>
+            <div class="image-wrap">
+                <img src="../assets/image/common/banner/noice/noice-04.jpg" alt="">
+                <img src="../assets/image/common/banner/noice/noice-05.jpg" alt="">
+                <img src="../assets/image/common/banner/noice/noice-06.jpg" alt="">
+            </div>
+        </div>
         <!-- <div class="space"></div> -->
         <!-- <div class="age">
             <div class="front">
@@ -213,8 +280,6 @@
                     e.forEach( (section) => {
                         if (section.isIntersecting) {
                             section.target.classList.add('active');
-                        } else {
-                            section.target.classList.remove('active');
                         }
                     }); 
                 })
@@ -222,11 +287,32 @@
                 let section = document.querySelectorAll('.action');
                 section.forEach(sections => observer.observe(sections));
             },
+            mouseFollow () {
+                const eyeRightPupil = document.querySelector('.eye-right-pupil');
+                const eyeLeftPupil = document.querySelector('.eye-left-pupil');
+                const eyeLeftInner = document.querySelector('.eye-left-inner');
+                const innerEyeWidth = eyeLeftInner.getBoundingClientRect().width;
+                const innerEyeHeight = eyeLeftInner.getBoundingClientRect().height;
+                const pupilWidth = eyeLeftPupil.getBoundingClientRect().width;
+                const pupilHeight = eyeLeftPupil.getBoundingClientRect().height;
+                const xMovement = (innerEyeWidth - pupilWidth)/2;
+                const yMovement = (innerEyeHeight - pupilHeight)/2;
+
+                window.addEventListener('mousemove', updateEyePosition);
+
+                function updateEyePosition(event) {
+                    const posX = ((event.clientX / document.body.clientWidth) * 2 - 1) * xMovement;
+                    const posY = ((event.clientY / document.body.clientHeight) * 2 - 1) * yMovement;
+
+                    eyeLeftPupil.style.transform = `translate(${posX}px, ${posY}px)`;
+                    eyeRightPupil.style.transform = `translate(${posX}px, ${posY}px)`;
+                }
+            },
             scrollTrigger () {
                 smoothScroll('.container');
                 function smoothScroll(content, viewport, smoothness) {
                     content = gsap.utils.toArray(content)[0];
-                    smoothness = smoothness || 2.5;
+                    smoothness = smoothness || 2;
 
                     gsap.set(viewport || content.parentNode, {overflow: "hidden", position: "fixed", height: "100%", width: "100%", top: 0, left: 0, right: 0, bottom: 0});
                     gsap.set(content, {overflow: "visible", width: "100%"});
@@ -306,7 +392,7 @@
                         end: "bottom 50%",
                         scrub: true,
                         // markers:true
-                    }, 
+                    }
                 },{
                     xPercent: -20,
                     yPercent: 50,
@@ -317,7 +403,7 @@
                         start: "top 50%",
                         end: "bottom 50%",
                         scrub: true
-                    }, 
+                    }
                 });
 
                 gsap.fromTo('.image-scale-second', {
@@ -331,7 +417,7 @@
                         end: "bottom 50%",
                         scrub: true,
                         // markers:true
-                    }, 
+                    }
                 },{
                     xPercent: -20,
                     yPercent: 50,
@@ -342,7 +428,7 @@
                         start: "top 50%",
                         end: "bottom 50%",
                         scrub: true
-                    }, 
+                    }
                 });
 
                 gsap.to('.circle', {
@@ -368,51 +454,71 @@
                         scrub: true
                     }
                 });
-
-                gsap.to('.project .action:nth-child(1)', {
-                    xPercent: -50,
+                
+                gsap.to('.image-collection .image-wrap:nth-child(even)', {
+                    yPercent: -15,
+                    opacity: 1,
                     scrollTrigger: {
-                        trigger: ".project .action:nth-child(1)",
+                        trigger: ".image-collection .image-wrap:nth-child(even)",
+                        scrub: true
+                    }
+                });
+                 gsap.from('.image-collection .image-wrap:nth-child(odd)', {
+                    yPercent: -15,
+                    opacity: 1,
+                    scrollTrigger: {
+                        trigger: ".image-collection .image-wrap:nth-child(odd)",
                         scrub: true
                     }
                 });
 
-                gsap.to('.project .action:nth-child(2)', {
-                    xPercent: 50,
+                gsap.to('.project .action:nth-child(1) .hover-image', {
+                    yPercent: -30,
                     scrollTrigger: {
-                        trigger: ".project .action:nth-child(2)",
+                        trigger: ".project .action:nth-child(1) .hover-image",
+                        scrub: true,
+                        markers:true
+                    }
+                });
+                
+                gsap.from('.project .action:nth-child(2) .hover-image', {
+                    yPercent: -30,
+                    scrollTrigger: {
+                        trigger: ".project .action:nth-child(2) .hover-image",
                         scrub: true
                     }
                 });
 
-                gsap.to('.project .action:nth-child(3)', {
-                    xPercent: -50,
+                gsap.to('.project .action:nth-child(3) .hover-image', {
+                    yPercent: -30,
                     scrollTrigger: {
-                        trigger: ".project .action:nth-child(3)",
+                        trigger: ".project .action:nth-child(3) .hover-image",
+                        scrub: true,
+                        markers:true
+                    }
+                });
+                
+                gsap.from('.project .action:nth-child(4) .hover-image', {
+                    yPercent: -30,
+                    scrollTrigger: {
+                        trigger: ".project .action:nth-child(4) .hover-image",
                         scrub: true
                     }
                 });
 
-                gsap.to('.project .action:nth-child(4)', {
-                    xPercent: 50,
+                gsap.to('.project .action:nth-child(5) .hover-image', {
+                    yPercent: -30,
                     scrollTrigger: {
-                        trigger: ".project .action:nth-child(4)",
-                        scrub: true
+                        trigger: ".project .action:nth-child(5) .hover-image",
+                        scrub: true,
+                        markers:true
                     }
                 });
-
-                gsap.to('.project .action:nth-child(5)', {
-                    xPercent: -50,
+                
+                gsap.from('.project .action:nth-child(6) .hover-image', {
+                    yPercent: -30,
                     scrollTrigger: {
-                        trigger: ".project .action:nth-child(5)",
-                        scrub: true
-                    }
-                });
-
-                gsap.to('.project .action:nth-child(6)', {
-                    xPercent: 50,
-                    scrollTrigger: {
-                        trigger: ".project .action:nth-child(6)",
+                        trigger: ".project .action:nth-child(6) .hover-image",
                         scrub: true
                     }
                 });
@@ -428,7 +534,7 @@
             top: 0px;
             left: 0px;
             width: 100%;
-            background: #f00;
+            background: #df114f;
             z-index: 1;
         }
         .transition-wrap { position: relative; width: 100%;
@@ -440,10 +546,31 @@
             .name-list {
                 display: flex;
                 position: relative;
-                font-size: 300px;
+                font-size: 250px;
                 font-variation-settings: "wght" 800, "wdth" 125;
                 justify-content: center;
                 transition: 1s ease;
+                @keyframes line-animation {
+                    to {
+                        width: 0vw;
+                    }
+                    from {
+                        width: 30vw;
+                    }
+                }
+                &:before {
+                    content: "";
+                    position: absolute;
+                    top: -100%;
+                    left: 20%;
+                    z-index: -1;
+                    width: 30vw;
+                    height: 1px;
+                    background: linear-gradient(45deg, #ffc000, transparent);
+                    transform: rotate(140deg);
+                    transform-origin: top left;
+                    // animation: 5s ease line-animation alternate;
+                }
                 &:after {
                     content: "";
                     position: absolute;
@@ -451,9 +578,36 @@
                     right: -85px;
                     width: 59px;
                     height: 59px;
-                    background: #f00;
+                    background: #df114f;
                     border-radius: 100%;
                     box-shadow: 1px 1px 5px 2px #b35656;
+                }
+                .list-item {
+                    span { display: block; position: relative; color: #df114f; transition: .2s ease; 
+                        &:before {
+                            content: attr(data-char);
+                            position: absolute;
+                            top: 0px;
+                            left: 0px;
+                            color: #efc449;
+                            transition: .2s ease; 
+                        }
+                        &:hover { 
+                            &:before { 
+                                transform: scale(1.05) rotate(-1deg);
+                                transform-origin: top left;
+                                transition: .2s ease; 
+                            }
+                            &:after {
+                                content: attr(data-char);
+                                position: absolute;
+                                top: 0px;
+                                left: 0px;
+                                Z-index: -1;
+                                filter: drop-shadow(0px 0px 20px #df114f);
+                            }
+                        }
+                    }
                 }
             }
         }
@@ -535,7 +689,7 @@
             flex-wrap: wrap;
             align-items: center;
             gap: 300px;
-            .action { position: relative; overflow: hidden; 
+            .action { position: relative; margin: 300px 0px;
                 &:before {
                     content: "";
                     position: absolute;
@@ -543,10 +697,10 @@
                     left: -5px;
                     width: 10px;
                     height: 19px;
-                    background: #fff;
+                    background: #040404;
                     opacity: 1;
                     z-index: 1;
-                    box-shadow: 0px 0px 30px 30px #fff;
+                    box-shadow: 0px 0px 30px 30px #040404;
                 }
                 &:after { 
                     content: "";
@@ -555,33 +709,74 @@
                     right: -5px;
                     width: 10px;
                     height: 19px;
-                    background: #fff;
+                    background: #040404;
                     opacity: 1;
                     z-index: 1;
-                    box-shadow: 0px 0px 30px 30px #fff;
+                    box-shadow: 0px 0px 30px 30px #040404;
                 }
                 &:nth-child(odd) { margin-left: auto; }
                 &:nth-child(even) { margin-right: auto; }
+                &.active {
+                    .hover-image {
+                        &:after { transform: translateY(-100%); }
+                    }
+                }
+                &:hover {
+                    .hover-image { 
+                        img { filter: sepia(0.5) blur(0px); }
+                    }
+                }
             }
-            .title { padding-bottom: 30px; font-size: 100px; font-weight: bold; overflow: hidden; }
-            .text-marquee { 
-                display: flex; 
-                position: absolute;
-                bottom: 0px;
-                font-size: 16px;
-                gap: 5px;
-                .text { color: #f00; animation: 10s linear text-marquee infinite; white-space: nowrap; 
-                    span { padding: 0px 10px; }
+            .inner-wrap { position: relative; overflow: hidden; 
+                .title { 
+                    padding-bottom: 30px; 
+                    font-size: 100px; 
+                    font-weight: bold; 
+                    color: #efc449;
+                    overflow: hidden; 
+                    // mix-blend-mode: saturation;
                 }
-            };
-            @keyframes text-marquee {
-                to {
-                    transform: translateX(0%);
-                }
+                .text-marquee { 
+                    display: flex; 
+                    position: absolute;
+                    bottom: 0px;
+                    font-size: 16px;
+                    gap: 5px;
+                    z-index: -2;
+                    .text { color: #efc449; animation: 10s linear text-marquee infinite; white-space: nowrap; 
+                        span { padding: 0px 10px; }
+                    }
+                };
+                @keyframes text-marquee {
+                    to {
+                        transform: translateX(0%);
+                    }
 
-                from {
-                    transform: translateX(calc(-100% - 5px));
+                    from {
+                        transform: translateX(calc(-100% - 5px));
+                    }
                 }
+            }
+            .hover-image { 
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                z-index: -1;
+                transform: translate(-50%, -50%);
+                transition: 0.5s ease;
+                overflow: hidden;
+                &:after {
+                    content: '';
+                    position: absolute;
+                    top: 0px;
+                    right: 0px;
+                    width: 100%;
+                    height: 100%;
+                    background: #040404;
+                    transform: translateY(0%);
+                    transition: 1s ease;
+                }
+                img { width: 400px; filter: sepia(0.5) blur(4px); }
             }
         }
     }

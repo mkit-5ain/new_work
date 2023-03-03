@@ -1,7 +1,7 @@
 <template>
     <header>
         <div>© Code By LIM</div>
-        <button class="menu" @click="menuToggle()"></button>
+        <!-- <button class="menu" @click="menuToggle()"></button> -->
         <!-- <nav>
             <router-link to="/">Home</router-link>
             <router-link to="/work">Work</router-link>
